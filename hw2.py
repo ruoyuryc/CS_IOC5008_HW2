@@ -262,7 +262,7 @@ criterion = nn.L1Loss()
 # In[29]:
 
 
-max_epoch = 7
+max_epoch = 50
 step = 0
 
 
