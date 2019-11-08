@@ -428,6 +428,7 @@ for r in range(5):
         i = get_sample_image(G, n_noise, n_samples=1)
         img.append(i)
     a = np.array(img)
+    
     output_fig(a,'./'+str(r))
 
 
